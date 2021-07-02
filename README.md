@@ -1,50 +1,43 @@
-# (Blank Template)
+# Currency-Exchanger
 
-#### (Brief Description of Application)
+#### By Arthur Lee
 
-#### By (Your Name Here)
+## Description
+A website that allows users to input a number to then convert that number from USD to any currency that choose!
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _Javascript_
+* _Jest_
+* _JQuery_
+* _Visual Studio code_
+* _HTML_
+* _Webpack_
+* _JSON_
+* _Babelrc_
+* _CSS_
 
-## Description
 
 ## Setup/Installation Requirements
+* _Clone this repository to your desktop._
+* _Mavigate to the top level of the directory._
+* _Visit the ExchangeRate-API site. Input your email address and click the "Get Free Key" button._
+* _You'll be prompted to create an account with your email, first name and a password. Agree to the terms of use and click "Get Started!"_
+* _Place your API key in an .env file at the top level of your directory. It should be look like this "API\_KEY=notarealkeyjustforexample" in your .env file_
+* _Run npm install in your terminal_
+* _Run npm build in your terminal_
+* _Run npm run start to see what the program can do!._
 
-### Without Github template clone:
-* Clone Repo
-* Delete .git if needing a clean commit history
-* Initilize git
-* Add remote repository to new git
-* Make first commit only adding .gitignore to commit
-* Open new repo to begin npm initilization
 
-### With Github
-* Press use this template
-* Create new repo
-* Clone new repo down to
-* Open new repo to begin npm initilization
-
-### Npm Initilization
-* Verify package.json has correct npm packages for needs
-* Modify title on line 18 of webpack.config.js
-* Modify title on line 2 of package.json
-* Modify description on line 19 of package.json
-* Modify title on line 2 if package-lock.json
-* Run ```npm init -y```
-* Run ```npm install```
-* Verify install works by running ```npm run test``` and ```npm run build```
-
-* * *
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
+
 
 ## License
 
+[MIT](https://en.wikipedia.org/wiki/MIT_License)
+Copyright (c) 2021 Arthur Lee
 ## Contact Information
+
+_Arthur Lee [meleearthur@gmail.com](meleearthur@gmail.com)_
