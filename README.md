@@ -32,8 +32,6 @@ A website that allows users to input a number to then convert that number from U
 ## Known Bugs
 
 * _No known bugs_
-
-
 ## License
 
 [MIT](https://en.wikipedia.org/wiki/MIT_License)
