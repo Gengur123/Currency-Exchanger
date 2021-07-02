@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <title>Currency Exchanger</title>
 </head>
+
 <body>
   <div class="container">
     <h1>Get the USD conversion rate</h1>
     <label for="usd">Enter USD dollars: </label>
     <input id="usd" type="text">
-    <h5>Click any button to convert it!</h5>
-    <button class="btn-success" id="eur">EUR (Euro)</button>
-    <button class="btn-success" id="jpy">JPY (Japanese Yen)</button>
-    <button class="btn-success" id="cad">CAD(Canadian Dollar)</button>
-    <button class="btn-success" id="aud">AUD(Australian Dollar)</button>
-    <button class="btn-success" id="cad">GBP(Pound Sterling)</button>
+    <h5>Select any currency to convert!</h5>
+    <select class="form-control" id="currencyType" type="text">
+      <option value="EUR">EUR(Euro)</option>
+      <option value="JPY">JPY(Japanese Yen)</option>
+      <option value="GBP">GBP(Pound Sterling)</option>
+      <option value="AUD">AUD(Australian Dollar)</option>
+      <option value="CAD">CAD(Candian Dollar)</option>
+    </select>
+    <br>
+    <button class="btn-success" id="bikes">Convert!</button>
     <div class="conversion"></div>
   </div>
-  
+
 </body>
+
 </html>
