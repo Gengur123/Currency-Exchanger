@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const { resolve } = require('path');
+// const { resolve } = require('path');
 const Dotenv = require('dotenv-webpack'); // new line
 
 module.exports = {
@@ -25,17 +25,17 @@ module.exports = {
   ],
   module: {
     rules: [{
-        test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader'
-        ]
-      },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: "eslint-loader"
-      }
+      test: /\.css$/,
+      use: [
+        'style-loader',
+        'css-loader'
+      ]
+    },
+    {
+      test: /\.js$/,
+      exclude: /node_modules/,
+      loader: "eslint-loader"
+    }
     ]
   }
 };
